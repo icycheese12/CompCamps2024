@@ -10,11 +10,33 @@ main {
 
 header {
     text-align:center;
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: <bold>;
+    font-style: normal;
+}
+
+a {
+    text-decoration-color: navy;
 }
 
 nav {
+    gap: 20px;
     display: flex;
     align-items: center;
     width: 100%
     justify-content: center;
+}
+
+a {
+    color:rgb(93, 141, 141);
+    text-shadow: #273f63 1px 0 10;
+}
+
+a:hover {
+    color:rgb(102, 75, 128);
+    transform: rotate(-5deg);
+}
+
+a {text-decoration-style:dotted;
 }
